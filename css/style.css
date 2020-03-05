@@ -1,5 +1,13 @@
 
 
+
+.long_linebreak { 
+display: inline-block;
+max-width: 350px;
+word-wrap: break-word;
+text-align: center;
+}
+
 .main_links {
 margin: 30px;
 }
