@@ -20,8 +20,9 @@ li.feature {
 margin-bottom: 15px;
 }
 
-.example-image {
+.js-lightBox {
 margin: 15px;
+vertical-align: top;
 }
 
 code { 
