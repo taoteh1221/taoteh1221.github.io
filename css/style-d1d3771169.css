@@ -1,5 +1,7 @@
 @keyframes loadRotate{ from{transform:rotate(0);transform-origin:50% 50%} to{transform:rotate(360deg)} }
 
+#screenshots img{border-radius:5px;border:thin solid #333;margin:5px}
+
 .js-lightBox{cursor:pointer;opacity:.8}
 
 .js-lightBox:hover{opacity:1}
