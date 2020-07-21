@@ -25,6 +25,12 @@ margin: 15px;
 vertical-align: top;
 }
 
+
+.bitcoin {
+color: #dd7c0d !important;
+}
+
+
 code { 
     background: hsl(220, 80%, 90%); 
 }
