@@ -33,8 +33,16 @@
 
 	<h1>DFD Cryptocoin Values</h1>
 	
-	
 	<img src='images/favicon.png' border='0' />
+	
+	<h2 id='release_link'></h2>
+	
+	<script>
+	$.get( "https://api.github.com/repos/taoteh1221/DFD_Cryptocoin_Values/releases/latest", function(data) {
+	$( "#release_link" ).html("<a href='https://github.com/taoteh1221/DFD_Cryptocoin_Values/releases' target='_blank'>Download The Latest Release (v" + data.tag_name + ")</a>");
+	});
+	</script>
+	
 	</div>
 	
 	<h3>Open source / free cryptocurrency investment portfolio tracker, with email / text / Alexa / Ghome / Telegram alerts, charts,  mining calculators, leverage / gain / loss / balance stats, news feeds and more. Privately track Bitcoin, Ethereum, and unlimited other cryptocurrencies. Customize assets list / alerts / charts / exchange pairings. Add as many assets / markets / alerts / charts as you want.</h3>
