@@ -124,10 +124,14 @@ white-space: nowrap;
 }
 
 
-.donate_crypto {
+.underline_pointer {
 text-decoration: underline;
 cursor: pointer;
-color: #007bff;
+}
+
+
+.pointer {
+cursor: pointer;
 }
 
 
