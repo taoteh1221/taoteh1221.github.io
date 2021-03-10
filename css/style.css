@@ -1,6 +1,61 @@
 
 
 
+html {
+width: auto;
+margin: auto;
+padding: 0px;
+}
+
+
+body {
+margin: 0px;
+width: auto;
+}
+
+
+img { 
+border: 0; 
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: .7rem !important;
+    margin-bottom: .7rem !important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+}
+
+
+p, h3 { 
+word-break: normal;
+margin-bottom: 15px;
+}
+
+
+code { 
+padding: 0em !important;
+margin: 0px;
+    background: hsl(220, 80%, 90%); 
+}
+
+pre {
+    white-space: pre-wrap;
+    background: hsl(30,80%,90%);
+}
+
+
+html, p {	
+font-family: sans-serif !important;
+font-size: 15px !important;
+}
+
+
+a {
+text-decoration: underline;
+}
+
+
 .long_linebreak { 
 display: inline-block;
 max-width: 350px;
@@ -31,11 +86,47 @@ color: #dd7c0d !important;
 }
 
 
-code { 
-    background: hsl(220, 80%, 90%); 
+.clear_both {
+clear: both;
 }
 
-pre {
-    white-space: pre-wrap;
-    background: hsl(30,80%,90%);
+
+.align_left {
+text-align: left;
 }
+
+
+.align_center {
+text-align: center;
+}
+
+
+.align_right {
+text-align: right;
+}
+
+
+.tooltip_title {
+position: relative; 
+white-space: nowrap; 
+text-align:center;
+}
+
+
+.yellow {
+color: #ffb83f !important;
+}
+
+
+.coin_info {
+margin: 13px;
+white-space: nowrap;
+}
+
+
+.donate_crypto {
+text-decoration: underline;
+cursor: pointer;
+}
+
+
