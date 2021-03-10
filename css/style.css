@@ -127,6 +127,7 @@ white-space: nowrap;
 .donate_crypto {
 text-decoration: underline;
 cursor: pointer;
+color: #007bff;
 }
 
 
