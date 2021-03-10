@@ -9,8 +9,9 @@ padding: 0px;
 
 
 body {
-margin: 0px;
+margin: 20px;
 width: auto;
+font-size: 18px !important;
 }
 
 
@@ -47,7 +48,7 @@ pre {
 
 html, p {	
 font-family: sans-serif !important;
-font-size: 15px !important;
+font-size: 18px !important;
 }
 
 
