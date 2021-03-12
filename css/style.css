@@ -28,6 +28,14 @@ border: 0;
 }
 
 
+/* .less_margins AFTER .hX CSS, to override */
+
+.less_margins  {
+    margin-top: 0.7rem !important;
+    margin-bottom: 0.7rem !important;
+}
+
+
 p, h3 { 
 word-break: normal;
 margin-bottom: 15px;
