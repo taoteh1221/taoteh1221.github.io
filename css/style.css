@@ -84,9 +84,19 @@ li.feature {
 margin-bottom: 15px;
 }
 
-.js-lightBox {
+img.thumbs {
 margin: 15px;
 vertical-align: top;
+border-radius:5px;
+border:thin solid #333;
+margin:5px;
+cursor:pointer;
+opacity:.8;
+}
+
+
+img.thumbs:hover{
+opacity:1;
 }
 
 
