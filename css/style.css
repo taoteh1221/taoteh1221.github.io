@@ -11,7 +11,7 @@ padding: 0px;
 body {
 margin: 20px;
 width: auto;
-font-size: 25px !important;
+font-size: 20px !important;
 }
 
 
@@ -21,8 +21,8 @@ border: 0;
 
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    margin-top: 2.9rem !important;
-    margin-bottom: 2.9rem !important;
+    margin-top: 1.6rem !important;
+    margin-bottom: 1.6rem !important;
     font-weight: 500 !important;
     line-height: 1.5 !important;
 }
@@ -38,7 +38,7 @@ border: 0;
 
 p, h3 { 
 word-break: normal;
-margin-bottom: 15px;
+margin-bottom: 10px;
 }
 
 
@@ -81,7 +81,7 @@ font-weight: bold; font-size: 20px;
 }
 
 li.feature {
-margin-bottom: 65px;
+margin-bottom: 45px;
 }
 
 img.thumbs {
